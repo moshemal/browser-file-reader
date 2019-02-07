@@ -1,0 +1,22 @@
+{
+  "name": "browser-file-utils",
+  "version": "0.0.0",
+  "description": "utils for using files in browsers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moshemal/browser-file-utils.git"
+  },
+  "author": "Moshe Malka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moshemal/browser-file-utils/issues"
+  },
+  "homepage": "https://github.com/moshemal/browser-file-utils#readme",
+  "devDependencies": {
+    "eslint": "^5.13.0"
+  }
+}
