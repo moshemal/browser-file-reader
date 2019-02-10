@@ -1,4 +1,4 @@
-export function ChunckReader(file) {
+function ChunkReader(file) {
   const reader = new Reader(file);
   Object.assign(this, {
     read: (size) => reader.read(size),
@@ -44,4 +44,4 @@ class Reader {
   }
 }
 
-export default ChunckReader;
+export default ChunkReader;
