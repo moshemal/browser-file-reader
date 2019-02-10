@@ -21,7 +21,8 @@ function LineReader(file) {
           lines.push(lastChunk);
           lastChunk = '';
         }
-        return Promise.resolve(lines);
+
+        return Promise.resolve(lines.splice(0,lines.length));
       }
     },
 
