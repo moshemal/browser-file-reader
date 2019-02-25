@@ -6,7 +6,7 @@ function LineReader(file) {
   let lastChunk = '';
   Object.assign(this, {
     read: (n = 1) => {
-      if (lines.length > n) {
+      if (lines.length >= n) {
         return Promise.resolve(lines.splice(0, n)); 
       } else if (chunkReader.hasNext()) {
         return chunkReader.read().then(chunk => {
