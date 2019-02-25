@@ -27,7 +27,7 @@ function LineReader(file) {
     },
 
     hasNext: () => {
-      return lines.length > 0 || chunkReader.hasNext();
+      return !!lastChunk || lines.length > 0 || chunkReader.hasNext();
     }
   });
 }
