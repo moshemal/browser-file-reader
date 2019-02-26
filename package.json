@@ -4,7 +4,8 @@
   "description": "utils for using files in browsers",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/moshemal/browser-file-utils#readme",
   "devDependencies": {
-    "eslint": "^5.13.0"
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-jest": "^24.1.0",
+    "eslint": "^5.13.0",
+    "jest": "^24.1.0"
   }
 }
