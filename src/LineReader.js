@@ -21,10 +21,11 @@ function LineReader(file) {
           lines.push(lastChunk);
           lastChunk = '';
         }
-
         return Promise.resolve(lines.splice(0,lines.length));
       }
     },
+
+    readLine: () => this.read(1).then(([l]) => l),
 
     hasNext: () => {
       return !!lastChunk || lines.length > 0 || chunkReader.hasNext();
