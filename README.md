@@ -1,2 +1,2 @@
-# browser-file-utils
+# browser-file-reader
 under development
