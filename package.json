@@ -1,6 +1,6 @@
 {
   "name": "browser-file-utils",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "utils for using files in browsers",
   "main": "src/index.js",
   "scripts": {
