@@ -1,5 +1,5 @@
 {
-  "name": "browser-file-utils",
+  "name": "browser-file-reader",
   "version": "0.1.0",
   "description": "utils for using files in browsers",
   "main": "src/index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moshemal/browser-file-utils.git"
+    "url": "git+https://github.com/moshemal/browser-file-reader.git"
   },
   "author": "Moshe Malka",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/moshemal/browser-file-utils/issues"
+    "url": "https://github.com/moshemal/browser-file-reader/issues"
   },
-  "homepage": "https://github.com/moshemal/browser-file-utils#readme",
+  "homepage": "https://github.com/moshemal/browser-file-reader#readme",
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
